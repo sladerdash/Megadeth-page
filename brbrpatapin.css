@@ -14,8 +14,8 @@ h1{
     font-size: 52px; /*tamaño texto*/
     margin-top: 3%;
     background-color: black;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 35%;
+    margin-left: 35%;
     height: auto;
     background-color: rgb(0, 0, 0, 0.8); 
 /*rgb paleta de color rojo verde y azul, y traparencia*/
@@ -50,7 +50,7 @@ p{
 .albums{
     width: 200px;
     height: auto;
-    border-radius: 8px; /*borde redondeado*/
+    border-radius: 7%; /*borde redondeado*/
 }
 .grupo1{
     display: flex;
