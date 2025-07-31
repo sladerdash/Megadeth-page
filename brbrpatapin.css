@@ -31,7 +31,7 @@ body{
 
 @font-face{ /*marcar que hay una nueva fuente*/
     font-family: Megadeth; /*nombre que le doy y usarla dps*/
-    src: url(Megadeth.ttf) format(truetype);
+    src: url(1.ttf) format(truetype);
     /*format true type si es.ttf, opentype si es .otf*/
 
 }
@@ -84,6 +84,9 @@ h3{
     justify-content: space-around; 
     align-items: center;
 }
-
+p   {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(255, 255, 255, 0.329); 
+}
 
 
