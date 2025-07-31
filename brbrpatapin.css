@@ -51,22 +51,28 @@ p{
     width: 200px;
     height: auto;
     border-radius: 7%; /*borde redondeado*/
+    max-width: 200px;
 }
 .grupo1{
     display: flex;
     justify-content: space-around; 
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .grupo2{
     display: flex;
     justify-content: space-around; 
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .grupo3{ /*centra en los extremos a las imagenes*/
     display: flex;
     justify-content: space-around; 
     align-items: center;
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
 img{
         background-color: rgb(255, 255, 255); 
@@ -89,4 +95,18 @@ p   {
   color: rgba(255, 255, 255, 0.329); 
 }
 
+@media (max-width: 600px) {
+    .albums {
+        width: 80%;
+        max-width: 300px;
+    }
 
+    h3 {
+        font-size: 16px;
+    }
+
+    .contorno {
+        margin: 5%;
+        padding: 10px;
+    }
+}
