@@ -95,7 +95,7 @@ p   {
   color: rgba(255, 255, 255, 0.329); 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*para que se vea bien en celular*/
     .albums {
         width: 80%;
         max-width: 300px;
@@ -103,10 +103,5 @@ p   {
 
     h3 {
         font-size: 16px;
-    }
-
-    .contorno {
-        margin: 5%;
-        padding: 10px;
     }
 }
