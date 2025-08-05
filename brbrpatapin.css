@@ -42,7 +42,9 @@ body{
     margin-left: 20%;
     margin-top: auto;
     margin-bottom: auto;
-    background-color: rgb(0, 0, 0, 0.8); 
+    background: linear-gradient(90deg, rgba(80, 80, 80, 0.6),rgb(0, 0, 0, 0.6), rgba(80, 80, 80, 0.6));
+    /*background-color: hsl: ((0-360), (0-100%), (0-100%) 1: color 2: saturation 3: lightness*/ 
+    /*background: linear-gradient(xdeg, color, color);  goes from one color to another by degreading*/
 }
 p{
     margin-left: 4%;
