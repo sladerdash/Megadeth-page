@@ -1,0 +1,9 @@
+hi, this is just to tell you that the "index.htlm" file (wich does´nt have a particular name for no reason)
+it´s just a personal proyect i did (probably im still doing) introducing the things im learning in the free
+coding course of "WWW.FreeCodeCamp.com", chatgpt (only when im really having problems), and youtube tutorials,
+so don´t spect to watch a good page from the first time.
+a days back i got the notice that megadeth´ll separate in 2026... i hope i have the same luck as 2023 to watch
+their perform, at least to look at the one last time
+note: i still need to learn javascript to make the page be "alive", btw i see that you can animate with css,
+but it must be something like programing games with python, you can? yes, is it recommend? hell na.
+hope you like this proyect date=(17/8/2025)
