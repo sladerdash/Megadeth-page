@@ -1,14 +1,11 @@
 .fotito{
     width: 50%;
-    height: auto; 
-    display: block;
     margin: auto; 
     box-shadow: 10px 10px 5px black; /*first number shadow´s long, then height, then the blur effect, 
     then additional space cover of lenght and*/
 }
 
-h1, h2, h3{
-    text-align: center; /*text position*/
+h1, h2, h3{ 
     color: white;
     font-family: Megadeth; /*link with the format i´ve alredy declare*/
 }
@@ -16,10 +13,10 @@ h1{
     display: inline-block;
     font-size: 48px;
     background-color: black;
-    box-shadow: black;
-    width: 56%;
+    box-shadow: 0px 0px 10px 5px black;
+    padding: 5px 10px;
+    border-radius: 6px;
     padding-bottom: 10px;
-
 /*rgb / rgba red, green and blue, max of 255*/
 /*opacity is for everithing, is better to use rgb(0,0,0,0.5) last number (0-1) is for opacity*/
 }
@@ -82,18 +79,9 @@ p{
 h3{
     height: 3px;
     color: rgb(255, 255, 200);
+    font-size: 16px;
 }
 
-@media (max-width: 600px) { /*better look for cellphones*/
-    .albums {
-        width: 80%;
-        max-width: 300px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-}
 a:active{
     color: gray;
 }
@@ -111,12 +99,13 @@ a:visited{
     background-color: rgba(0, 0, 0, 0);
 }
 
+footer{
+    text-align: left;
+}
 fieldset{
-    color: white;
+    max-width: 100%;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: auto;
-    margin-bottom: auto;
     background: linear-gradient(90deg, rgba(80, 80, 80, 0.7),rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7), rgba(80, 80, 80, 0.7));
 /*background-color: hsl: ((0-360), (0-100%), (0-100%) 1: color 2: saturation 3: lightness*/ 
 /*background: linear-gradient(xdeg, color, color);  goes from one color to another by degreading*/
