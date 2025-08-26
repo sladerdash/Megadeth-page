@@ -20,7 +20,19 @@ h1{
 /*rgb / rgba red, green and blue, max of 255*/
 /*opacity is for everithing, is better to use rgb(0,0,0,0.5) last number (0-1) is for opacity*/
 }
-img{
+
+.title img{
+   width: 60px;  
+    background-color: rgba(0, 0, 0, 0);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /*espace between items */
+    margin: 20px 0;
+}
+fieldset img{
     background-color: rgb(255, 255, 255); 
     padding: 4px; 
 }
@@ -103,9 +115,9 @@ footer{
     text-align: left;
 }
 fieldset{
-    max-width: 100%;
     margin-right: 20%;
     margin-left: 20%;
+    border: 5px double rgb(4, 4, 4);
     background: linear-gradient(90deg, rgba(80, 80, 80, 0.7),rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7), rgba(80, 80, 80, 0.7));
 /*background-color: hsl: ((0-360), (0-100%), (0-100%) 1: color 2: saturation 3: lightness*/ 
 /*background: linear-gradient(xdeg, color, color);  goes from one color to another by degreading*/
