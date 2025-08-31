@@ -67,25 +67,9 @@ p{
 }
 .grupo1{
     display: flex; /*objet´s type (flexible in this case)*/
-    justify-content: space-around; 
-    align-items: center;
+    justify-content: space-around; /*centers the images and then let a space between them so you can see 2 images on the same lineonly avalible for pc*/
+    align-items: center;    
     flex-wrap: wrap;
-    gap: 20px;
-}
-.grupo2{
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.grupo3{ /*centers the images and then let a space between them so you can see 2 images on the same line
-            only avalible for pc*/
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 h3{
