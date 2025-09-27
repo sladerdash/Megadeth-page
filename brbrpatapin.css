@@ -17,12 +17,13 @@ h1{
     padding: 5px 10px;
     border-radius: 6px;
     padding-bottom: 10px;
+    letter-spacing: 5px;
 /*rgb / rgba red, green and blue, max of 255*/
 /*opacity is for everithing, is better to use rgb(0,0,0,0.5) last number (0-1) is for opacity*/
 }
 
 .title img{
-   width: 60px;  
+    width: 60px;  
     background-color: rgba(0, 0, 0, 0);
 }
 .title{
@@ -71,6 +72,7 @@ p{
     align-items: center;    
     flex-wrap: wrap;
 }
+/*actually, i could use the flex-direction: column/column-reverse; to do it, by the way also exists row and row.reverse*/
 
 h3{
     height: 3px;
@@ -105,4 +107,14 @@ fieldset{
     background: linear-gradient(90deg, rgba(80, 80, 80, 0.7),rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7), rgba(80, 80, 80, 0.7));
 /*background-color: hsl: ((0-360), (0-100%), (0-100%) 1: color 2: saturation 3: lightness*/ 
 /*background: linear-gradient(xdeg, color, color);  goes from one color to another by degreading*/
+}
+.vic img{
+    width: 10%;
+    position: fixed; /*using fixes make the display flex useless for the items, like the p, img, etc*/
+}
+.vic img:first-child{
+left: 0;   /*makes the item go to one side of the page*/
+}
+.vic img:last-child{
+right: 0;
 }
